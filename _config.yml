@@ -1,2 +1,3 @@
-theme: minima
+# theme: minima
+theme: mmistakes/minimal-mistakes
 title: pengpeng's homepage
