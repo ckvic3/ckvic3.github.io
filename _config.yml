@@ -289,7 +289,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: home
       author_profile: true
       read_time: true
       comments: true
@@ -297,10 +297,10 @@ defaults:
       related: true
 
 defaults:
-# _pages
-- scope:
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: home
+      author_profile: true
